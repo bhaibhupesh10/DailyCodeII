@@ -2,6 +2,7 @@
 #include<conio.h>
 int main()
 {
+
 clrscr();
 int a,b,c;
 cout<<"a= ";
