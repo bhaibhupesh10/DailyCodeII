@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<style>
+body{
+    background-image: url('aboutimage.jpg');
+    background-repeat: no-repeat;
+    height:auto;
+  /*  background-size:cover;
+   /* background-position: center;
+    margin-top: 100%;
+    /*background-color:rgb(184, 162, 162);*/
+}
+*{
+box-sizing:border-box;
+border-color:rgb(13, 35, 35);
+}
+.container{
+width:400px;
+margin:auto;
+height:auto;
+background: rgb(4, 56, 4);
+padding:15px;
+}
+input[type=text]{
+width:100%;
+padding:10px;
+font-size:22px;
+font-weight:bold;
+margin-top:25px;
+border-radius:0%;
+}
+input[type=button]{
+width:88px;
+padding:8px;
+font-size:22px;
+font-weight:bold;
+border-radius:100px;
+color:darkolivegreen;
+}
+
+
+
+#del{
+width:100%;
+margin-top:15px;
+}
+
+.bhu{
+     margin:400px;
+     padding:100px;
+     height: 3px;
+     width: 2px;
+     align-items: left;
+     color: green;
+     border-radius:5px;
+
+     }
+     .oct{
+        border-radius: 490px;
+        border-style:dotted dashed double solid;
+        height:100px;
+     }
+</style>
+</head>
+<body>
+    <div class="bhu"><img class="oct" src='7oct.png'>
+    this is bhupesh ka division</div>
+
+
+
+<div class="container">
+<form name="cal">
+<input type="text" name="display">
+<br> <br>
+<input type ="button" value="9" onclick="cal.display.value+='9'">
+<input type ="button" value="8" onclick="cal.display.value+='8'">
+<input type ="button" value="7" onclick="cal.display.value+='7'">
+<input type ="button" value="+" onclick="cal.display.value+='+'">
+<br> <br>
+<input type ="button" value="6" onclick="cal.display.value+='6'">
+<input type ="button" value="5" onclick="cal.display.value+='5'">
+<input type ="button" value="4" onclick="cal.display.value+='4'">
+<input type ="button" value="-" onclick="cal.display.value+='-'">
+<br> <br>
+<input type ="button" value="3" onclick="cal.display.value+='3'">
+<input type ="button" value="2" onclick="cal.display.value+='2'">
+<input type ="button" value="1" onclick="cal.display.value+='1'">
+<input type ="button" value="*" onclick="cal.display.value+='*'">
+<br> <br>
+<input type ="button" value="0" onclick="cal.display.value+='0'">
+<input type ="button" value="/" onclick="cal.display.value+='/'">
+<input type ="button" value="%" onclick="cal.display.value+='%'">
+<input type ="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+<input type ="button" value="DELETE  " onclick="cal.display.value='  '" id="del"></center>
+<br> <br>
+</form>
+</div>
+</body>
+</html>
