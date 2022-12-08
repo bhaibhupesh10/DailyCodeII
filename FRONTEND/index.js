@@ -21,7 +21,6 @@
 //     console.log(element);
 // })
 
-
 // let j = 5;
 // const ac = 0;
 // ac++;
