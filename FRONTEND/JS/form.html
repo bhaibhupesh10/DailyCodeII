@@ -2,14 +2,32 @@
 <head>  
 <title> Login Form</title>  
 </head>  
+<style>
+    #click {
+        background-color: aqua;
+        border-color: blue;
+        border-radius: 2px;
+    }
+    #loginclick{
+        /* background-color: red;*/
+        border-radius: 5px;
+    }
+    .navbar{
+        border:2px solid red;;
+        padding: 50px;
+    }
+</style>
+
 <body>  
-<h3> LOGIN </h3>  
+<h3> LOGIN </h3>  <div class="navbar">
 <form form ="Login_form" onsubmit="submit_form()">  
-<h4> USERNAME</h4>  
-<input type="text" placeholder="Enter your email id"/>  
+<h4> USERNAME</h4> 
+<div id="click">
+<input type="text" placeholder="Enter your email id"/></div>
 <h4> PASSWORD</h4>  
-<input type="password" placeholder="Enter your password"/></br></br>  
-<input type="submit" value="Login"/>  
+<input type="password" placeholder="Enter your password"/></div></br></br>  
+<span id="loginclick"><input type="submit" value="Login"/> </span>
+
 <input type="button" value="SignUp" onClick="create()"/>  
 </form>  
 <script type="text/javascript">  
@@ -17,7 +35,7 @@ function submit_form(){
 alert("Login successfully");  
 }  
 function create(){  
-window.location="signup.html";  
+window.location="index.php";  
 }  
 </script>  
 </body>  
