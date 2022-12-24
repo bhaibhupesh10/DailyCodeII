@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-        echo "indians ka mtlb fool hota hai \n";
+        echo "India is the democratic country in the world \n";
 		echo "Aaj mangla ja rhi hai \n";
         ?>
     </body>
