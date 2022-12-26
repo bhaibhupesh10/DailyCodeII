@@ -1,29 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<title>button using javascript</title>
+
+
+<style>
+body{
+background:linear-gradient(to right, red, blue, white, yellow, green, red, yellow, violet, indigo, blue, red, blue, white, yellow, green , red , yellow , violet, indigo, blue, pink, orange, black);
+}
+
+.firsthead{
+background:white;
+text-align:center;
+
+}
+.demo1{
+padding:10%;
+}
+
+
+
+</style>
 <body>
-    <button id ="demo" >CLICKED</button><br><br>
-        <button id="demo1">don't click here </button>
+<div class = "firsthead">
+
+<h1> Ye ek javascript program hai</h1></div>
 
 
-    <script>
-        document.getElementById("demo").addEventListener('click', myFunction);
 
-            function myFunction() {
-                document.getElementById("demo").innerHTML="you shouldn't touch here";
-            }
-            
-            document.getElementById("demo1").addEventListener('click', myFunction2);
+<br><hr><br><br>
+<div class="demo1">
+<button id = "click"> ye ek button  hai </button>
+</div>
+<span class= "para">
+<p><br> ye ek paragraph likh rha hunn mai ab dekhte hai ki kya kya ho skta hai javascript ki help se<p>
+</span>
 
-            function myFunction2() {
-                document.getElementById("demo1").innerHTML= "bola tha na don't touch here ";  
-        }
 
-    </script>
+<script> 
+
+
+
+		let myfun = "this is javascript program let me tell you what I can do is";
+		document.write("<br> <br><br><br><br><br><br><br>",myfun);
+
+
+
+
+	document.getElementById('demo').addEventListener('click', myfunction);
+
+		function myfunction(){
+	document.getElementById('demo').innerHTML = "don't click me chalo thik hai apne mann se kuch too javascript ke program banana sikha hia tune ab dekhte hai ki aur kya kya kar sakta hia output dekh pahele to bhai ";
+	}
+
+
+		let elem = document.getElementById('click');
+			console.log(elem);
+			<button id = "click"> click me</button>
+		let elemclass= document.getElementsByClassName("para");
+		console.log(elemclass);
+		
+			
+
+
+
+</script>
 </body>
 </html>
