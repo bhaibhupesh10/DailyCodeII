@@ -17,7 +17,6 @@ else
 {
 cout<<"error";
 }
-  
 getch();
 return 0;
 }
