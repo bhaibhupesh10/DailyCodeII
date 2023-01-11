@@ -17,6 +17,7 @@ body {
   background-color: white;
 }
 
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
