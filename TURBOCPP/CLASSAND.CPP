@@ -10,7 +10,6 @@ cout<<"enter values: ";
 cin>>a>>b;
 }
 void show(){
-
 cout<<a<<" "<<b<<endl;
 }
 };
