@@ -3,7 +3,6 @@ public class Student {
         int age;
         String gender;
         int usn;
-
         void eat () {
             System.out.println("Student is eating");
 
