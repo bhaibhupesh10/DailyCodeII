@@ -14,6 +14,5 @@
      echo " error ane wala hai \n ";
      echo "kaisa system hai yrr iska too ";
      ?>
-
 </body>
 </html>
