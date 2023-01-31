@@ -8,6 +8,7 @@ public class StudentApp {
         s2.sleep();
         s3.study();
 
+
         s1.name = "Raju";
         s1.age = 23;
         s1.gender = "male";
