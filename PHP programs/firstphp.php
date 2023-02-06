@@ -17,6 +17,5 @@ echo "echo sirf print karane ke liye hi kaam aata hai<br>";
 	echo "num1 + num2 = ", $num1 + $num2;
 
 ?>
-
 </body>
 </html>
