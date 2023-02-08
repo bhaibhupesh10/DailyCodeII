@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .rose {
+        position: relative;
+        width: 400px;
+        height: 400px;
+      }
+      
+      .petal {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px 50px 0 0;
+        transform: rotate(72deg);
+      }
+      
+      .petal:nth-child(1) {
+        top: 50px;
+        left: 100px;
+        background-color: red;
+      }
+      
+      .petal:nth-child(2) {
+        top: 50px;
+        left: 100px;
+        transform: rotate(72deg);
+        background-color: red;
+      }
+      
+      .petal:nth-child(3) {
+        top: 50px;
+        left: 100px;
+        transform: rotate(144deg);
+        background-color: red;
+      }
+      
+      .petal:nth-child(4) {
+        top: 50px;
+        left: 100px;
+        transform: rotate(216deg);
+        background-color: red;
+      }
+      
+      .petal:nth-child(5) {
+        top: 50px;
+        left: 100px;
+        transform: rotate(288deg);
+        background-color: red;
+      }
+      
+      .center {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: yellow;
+        top: 150px;
+        left: 150px;
+      }
+      
+      
+</style>
+<body>
+    <div class="rose">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="center"></div>
+      </div>
+      
+</body>
+</html>
