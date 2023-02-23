@@ -4,6 +4,8 @@ $name = $_POST['name'];
 $pass = $_POST['pass'];
 
 
+
+
 $user = 'root';
 $p = '';
 $conn = mysqli_connect('localhost', $user , $p) or die("unable to connect");
