@@ -3,6 +3,7 @@
 
 // console.log("javascript programming such statements that we can consider: like if, if else, if else if, \n");
 
+
 // a= 20;
 
 // if(a>=18 && a<=21) {
