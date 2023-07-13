@@ -12,13 +12,18 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 767px) {
 
     .prev,
     .next,
     .text {
-        font-size: 11px
+        font-size: 11px;
     }
+    .leftside{
+    height:100%;
+    width:100%;
+    }
+    
 }
 
 nav {

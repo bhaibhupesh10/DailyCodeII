@@ -1,0 +1,23 @@
+{
+  "name": "bhupesh",
+  "version": "1.0.0",
+  "description": "This package is really nice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bhaibhupesh10.github.io"
+  },
+  "keywords": [
+    "package",
+    "for",
+    "npm",
+    "and",
+    "node",
+    "js"
+  ],
+  "author": "Bhupesh choudhary",
+  "license": "ISC"
+}
