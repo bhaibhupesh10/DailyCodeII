@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRUD Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    h1 {
+        text-align: center;
+      }
+      
+      form {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      input {
+        margin-right: 10px;
+        padding: 5px;
+      }
+      
+      button {
+        padding: 5px 10px;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 20px;
+        padding: 0;
+      }
+      
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f2f2f2;
+      }
+      
+      li span {
+        margin-right: 10px;
+      }
+      
+      li button {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      
+</style>
+<body>
+  <h1>CRUD Website</h1>
+  <form id="form">
+    <input type="text" id="name" placeholder="Enter name">
+    <input type="email" id="email" placeholder="Enter email">
+    <button type="submit" id="submit-btn">Create</button>
+  </form>
+  <ul id="list"></ul>
+  <script>
+    const form = document.querySelector('#form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const list = document.querySelector('#list');
+
+let contacts = [];
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const name = nameInput.value;
+  const email = emailInput.value;
+  if (name === '' || email === '') {
+    alert('Please enter name and email');
+    return;
+  }
+  const contact = { id: Date.now(), name, email };
+  contacts.push(contact);
+  displayContacts();
+  nameInput.value = '';
+  emailInput.value = '';
+});
+
+function displayContacts() {
+  list.innerHTML = '';
+  contacts.forEach((contact) => {
+    const li = document.createElement('li');
+    const nameSpan = document.createElement('span');
+    const emailSpan = document.createElement('span');
+    const deleteBtn = document.createElement('button');
+    nameSpan.textContent = contact.name;
+    emailSpan.textContent = contact.email;
+    deleteBtn.textContent = 'Delete';
+    deleteBtn.addEventListener('click', () => {
+      deleteContact(contact.id);
+    });
+    li.appendChild(nameSpan);
+    li.appendChild(emailSpan);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
+  });
+}
+
+function deleteContact(id) {
+  contacts = contacts.filter((contact) => contact.id !== id);
+  displayContacts();
+}
+
+  </script>
+</body>
+
+</html>
