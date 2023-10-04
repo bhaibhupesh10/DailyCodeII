@@ -1,0 +1,47 @@
+{
+"cats": {
+    "name":"cats", 
+    "followers":78500,
+    "following":5,
+    "posts":[
+        {
+            "image": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=1024x1024&w=is&k=20&c=QaEkKC7lFEBrzzPftMRBVuOZq4FNOnUjOV1VqTmpMfY=",
+            "likes": 200,
+            "comments": 17
+        },
+        {
+            "image": "https://media.istockphoto.com/id/1427277647/photo/portrait-of-a-bengal-shorthair-cat-close-up-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=MVD0fXo-bRAHeZgjiqx9nywZPJzaccC_3qiHUaJwvSA=",
+            "likes":399,
+            "comments":35
+        },
+        {
+            "image": "https://media.istockphoto.com/id/1444055032/photo/bengal-cat-with-raised-paw-isolated.jpg?s=1024x1024&w=is&k=20&c=xuor1JSFiVjkW7E5rMBicYwJcrBVHRxWV4oGMLYJPJo=",
+            "likes":300,
+            "comments":69
+        }
+    ]
+},
+
+"dogs": {
+    "name":"dogs", 
+    "followers":25000,
+    "following":5,
+    "posts": [
+        {
+            "image": "https://media.istockphoto.com/id/1203029058/photo/great-dane-and-french-bulldog-looking-up-over-a-gray-background-studio-shot.jpg?s=1024x1024&w=is&k=20&c=Y7gmNCrDn4KsBdellmVivMxnDDwj0CN2TUCkowijpy4=",
+            "likes": 234,
+            "comments": 17
+        },
+        {
+            "image": "https://media.istockphoto.com/id/616003600/photo/stray-dogs.jpg?s=1024x1024&w=is&k=20&c=V1wbsxxk77x64t4c3Ph3Uvw7Dby-4gJAGinNfi5K8C4=",
+            "likes":539,
+            "comments":35
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1608744882201-52a7f7f3dd60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
+            "likes":300,
+            "comments":69
+        }
+    ]
+}
+}
