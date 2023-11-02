@@ -2,19 +2,39 @@
 
 // example let add = function(a, b){
     // return a+b}
+    // normal function by passing values
+let add2 = function(a, b){
+    return a+b;
+}
+console.log(add2(33,5))
 
+// arrow function by passing parameters
+let add3 = (a,b)=>{
+    return a+b;
+}
+console.log(add3(345,56))
 //     let add = (a, b)=> {return a+b};
 // console.log(add(3, 5));
 
 // function with single parameter.
 // (p1) => {statements} // syntax1
 // p1 => {statements} // syntax2 
-
+let a =10;
+let b = 30;
+const add4= (a, b)=>{
+    return a+b;
+}
+console.log(add4())
 // function with no parameter 
 // let a = (aa) => {
 //     // syntax 
 //     return aa;
 // }
+
+let add5 = (aww) =>{
+    return aww;
+}
+console.log(add5(90879))
 
 // console.log(a(43));
 
@@ -111,11 +131,137 @@
 // console.log(area);
 // console.log("my name is bhupesh");
 
-function areaFunc(){
-    let base = prompt("enter base");
-let height = prompt("enter height: ");
-var area = (base*height)/2;
-document.getElementById("AreaOf").innerHTML = "Area of triangle= " + area;
-
-  
+function areaOfFunc(){
+    let base = 10;
+    let height = 20;
+    return area = (base * height)/2;
+    // console.log(area);
 }
+
+let add = function(a, b){
+    return a+b;
+};
+console.log(add(34, 2032));
+
+let add1 = (x, y) => {
+    return x+y;
+};
+console.log(add1(20, 20));
+
+
+// // function with single parameter
+// const name = (p1)=>{
+//     // let name =
+//     console.log(p1);
+// }
+
+// name("bhupesh");
+
+// console.log("bhupesh2"
+// const myName = () =>[ {
+//         Sname: "Bhupesh choudhary", 
+//         class: "MCA", 
+//         price: 200
+//     },
+//     {
+//         Sname1:"Tarun Choudhary",
+//         class:"MCA9",
+//         price:299
+//     }
+// ]
+// let obj = myName();
+// console.log(obj);
+
+// let firstName = "John";
+// let lastName = "Doe";
+// let age = 30;
+
+// let person = {
+//     firstName,
+//     lastName,
+//     age,
+// };
+
+
+const createMultipleObjects = () => [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 }
+];
+
+const objectsArray = createMultipleObjects();
+let obj=objectsArray[2];
+console.log(obj)
+
+// object destructuring: it assigns property of an object to individual variable
+
+// let person = {
+//     name:"coder",
+//    age:23};
+// };
+// let name = person.name;
+// let age = person.age;
+
+// console.log(name);
+// console.log(age);
+// console.log(name, age)
+
+// let {name, age}=person;
+// console.log(age, name);
+
+let person2 = {
+    name:"jonh", 
+    age:24
+}
+// object destructuring
+let {name, age} = person2;
+console.log(Object.keys(person2))
+console.log(person2.name, person2.age);
+let valuess = Object.values(person2);
+console.log(valuess);
+
+
+
+
+console.log()
+
+let user = {
+    username:"Bhupesh choudhary",
+    price:999,
+
+    welcomeMessage: function(){
+        console.log(`${this.username} welcome to the ...`)
+    }
+
+    }
+user.welcomeMessage();
+user.username = "Tarun choudahry";
+user.welcomeMessage();
+  
+function chai(){
+    let username="bhhu";
+    
+    
+    console.log(this);
+}
+chai();
+
+const addTwo= (a,b) => {
+    return a+b;
+}
+console.log(addTwo(3,5));
+
+const arr = (num1, num2) => num1 + num2;
+console.log(arr(3, 6));
+
+const arr1 = (num1, num2) => (
+    num1 + num2 
+    );
+console.log(arr(54,654));
+
+
+const arr2 = (num1, num2) => ({
+    username:"bhupesh",
+    password:1234
+})
+console.log(arr2().username);

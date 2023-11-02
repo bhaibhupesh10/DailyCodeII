@@ -1,0 +1,15 @@
+div{
+    background-color:pink;
+    height:300px;
+    width:400px;
+}
+ul{
+    background-color:blue;
+}
+li{
+    background-color:yellowgreen;
+}
+.select::selection{
+    background-color:red;
+    color:white;
+}

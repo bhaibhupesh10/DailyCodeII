@@ -12,15 +12,13 @@
 <p id="demo"></p>
 
 <script>
-function myFunction() {
-  let base = prompt("Please enter base value", parseFloat("4"));
-  let height = prompt("Please enter height value: ", parseFloat("5"));
+let myFunction = function(base = 20, height = 34) {
   let area = (base*height)/2;
-  
+return area;
     document.getElementById("demo").innerHTML =
-    "Hello " + area + "! How are you today?";
-  }
+    `Hello " ${area} ! How are you today?`;
 }
+
 </script>
 
 </body>

@@ -1,0 +1,31 @@
+body{
+
+    justify-content: center;
+    display:flex;
+}
+#wrapper{
+    background-color: rgb(180, 112, 160);
+}
+h1{
+    background-color: white;
+}
+#guess{
+    display:block;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    
+}
+p{
+    align-items:center;
+    text-align: center;
+}
+input{
+    display:flex;
+    width:200px;
+    height:30px;
+    justify-content: center;
+    margin:20px;
+    margin-left:60px;
+    
+}

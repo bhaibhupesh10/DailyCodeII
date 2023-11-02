@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventBubbling</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <p style= "user-select:none;">In this project I have included the a parent div in which child element (ul) and (grandchild li) is added in it 
+            in which i have added eventListener function on click we will get in console that which element is clicked ul or div 
+        </p><p class="select">    inside the div i have added a event function that stops the propagation (event.stopPropagation)
+             stop the propagation mean it will only show the output which will be clicked, because in this case if we clicked on child element it will be cliked on both parent and child element to stop this i have added an even called event.stopPropagation();
+            </p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

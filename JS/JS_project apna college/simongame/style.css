@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    /* display:flex; */
+}
+.btns{
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    
+    justify-content: center;
+    margin:15px;
+    display:flex;
+    height:150px;
+    width:150px;
+    border:7px solid black;
+    border-radius:20px;
+}
+ .red{
+    background-color: #f99b45;
+ }
+ .blue{
+    background-color: #d95890;
+ }
+ .orange{
+    background-color: #819ff9;
+ }
+ .purple{
+    background-color: #63aac0;
+ }

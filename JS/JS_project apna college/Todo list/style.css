@@ -1,0 +1,60 @@
+
+body{
+    color:red;
+    height:100%;
+    width:100%;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color:rgb(65, 13, 93)
+}
+.primaryButton{
+    background-color:rgb(136, 112, 148);
+    color:whitesmoke;
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    align-items: center;
+}
+.input{
+    width:50%;
+    height:30px;
+    margin-left:20%;
+    border-radius:5px;
+    border-style:double;
+}
+input::placeholder{
+    font-size:20px;
+    color:grey;
+}
+@media (max-width: 600px) {
+    /* Style to move the button to the next line */
+    .primaryButton {
+        display:flex;
+        margin-left: 35%;
+        height:30px;
+        margin-top:10px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+hr{
+    width:100%;
+    border:1.5px solid grey;
+    margin-top:1rem;
+}
+.itemList{
+ margin-left:5px;
+ margin-top:2px;
+ white-space: 2px;
+ background-color: white;
+ border-radius: 5px;
+ border:5px;
+ width:80%;
+}
+
+.itemLis{
+    border:5px;
+}

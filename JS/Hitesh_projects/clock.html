@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+</head>
+<style>
+ body{
+    background-color:grey;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    margin-top:20%;
+ }
+    .clock{
+        height:20px;
+        width:100px;
+        background-color:yellow;
+
+    }
+   
+</style>
+<body>
+    <div id="items">
+    <h3>Clock</h3>
+    <div class="clock"></div>
+</div>
+</body>
+<script>
+    let clock = document.querySelector(".clock");
+  setInterval(function(){  
+    let date = new Date();
+    clock.innerHTML = date.toLocaleTimeString();
+  },1000);
+</script>
+</html>

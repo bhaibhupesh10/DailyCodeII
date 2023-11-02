@@ -30,7 +30,7 @@ body{
 }
 
 .inner-container h1{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-size: 30px;
     font-weight: 900;
     color:white;
@@ -85,4 +85,6 @@ body{
 	border-bottom-left-radius: 25rem;
 	height:70vh;
 	width:70vh;
+    margin-top:10%;
+    margin-left: 5%;
 }

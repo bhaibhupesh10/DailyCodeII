@@ -1,0 +1,32 @@
+    
+body{
+    /* display:block; */
+    background-position:center;
+    background-repeat: no-repeat;
+     height:500px;
+    
+    /* width: 100%;  */
+    background-size:cover;
+ /* background-color: #cccccc;    */
+}
+ul li{
+    display:inline;
+    padding:8px;
+    list-style: none; 
+    font-size:larger;
+}
+a{
+    text-decoration: none;
+}
+.sagebank{
+    margin-left:20px;
+    text-decoration: wavy;
+    color:yellowgreen;
+    background-color:rgb(85, 121, 121) ;
+    font-style:oblique;
+}
+header{
+    background-color: azure;
+    height:100px;
+    border-radius: 15px;
+}
