@@ -1,0 +1,11 @@
+.container {
+    position: relative;
+    width: 500px; /* Adjust according to your layout */
+    height: 500px; /* Adjust according to your layout */
+}
+
+.move-image {
+    position: absolute;
+    top: 10px; /* Adjust the value to move vertically */
+    margin-left: 500px; /* Adjust the value to move horizontally */
+}
